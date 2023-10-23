@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to the Dashboard</h1>
+        <h2>Announcements</h2>
+        <ul id="announcement-list">
+            <!-- Announcements will be displayed here -->
+        </ul>
+        <form id="announcement-form">
+            <input type="text" id="announcement-text" placeholder="Enter your announcement" required>
+            <button type="submit">Add Comment</button>
+        </form>
+        
+    </div>
+    <script src="/scripts.js"></script>
+    
+</body>
+</html>
+<style>body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#announcement-list {
+    list-style: none;
+    padding: 0;
+}
+
+#announcement-list li {
+    margin: 5px 0;
+}
+
+#announcement-form {
+    margin-top: 10px;
+}
+</style>
+
+<script>document.addEventListener('DOMContentLoaded', function() {
+    const announcementList = document.getElementById('announcement-list');
+    const announcementForm = document.getElementById('announcement-form');
+    const announcementText = document.getElementById('announcement-text');
+
+    // Add an event listener to the announcement form to handle adding announcements
+    announcementForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        // Get the announcement text from the input field
+        const text = announcementText.value;
+
+        // Create a new list item to display the announcement
+        const listItem = document.createElement('li');
+        listItem.textContent = text;
+        announcementList.appendChild(listItem);
+
+        // Clear the input field
+        announcementText.value = '';
+    });
+});
+
+</script>
