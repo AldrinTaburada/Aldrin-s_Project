@@ -200,7 +200,7 @@
             </div>
           </div>
           <div class="d-xl-flex justify-content-between align-items-start">
-            <h2 class="text-dark font-weight-bold mb-2"> Overview dashboard </h2>
+            <h2 class="text-dark font-weight-bold mb-2"> Admin Dashboard </h2>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
             <body>
