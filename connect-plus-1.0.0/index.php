@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,92 +33,91 @@
         <a class="navbar-brand brand-logo" href="index.html"><img src="assets/images/logo.svg" alt="logo" /></a>
         <a class="navbar-brand brand-logo-mini" href="index.html"><img src="assets/images/logo-mini.svg"
             alt="logo" /></a>
-      
-           
-         
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
-              aria-labelledby="messageDropdown">
-              <h6 class="p-3 mb-0 bg-primary text-white py-4">Messages</h6>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="assets/images/faces/face4.jpg" alt="image" class="profile-pic">
-                </div>
-                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                  <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Mark send you a message</h6>
-                  <p class="text-gray mb-0"> 1 Minutes ago </p>
-                </div>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="assets/images/faces/face2.jpg" alt="image" class="profile-pic">
-                </div>
-                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                  <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Cregh send you a message</h6>
-                  <p class="text-gray mb-0"> 15 Minutes ago </p>
-                </div>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <img src="assets/images/faces/face3.jpg" alt="image" class="profile-pic">
-                </div>
-                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                  <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Profile picture updated</h6>
-                  <p class="text-gray mb-0"> 18 Minutes ago </p>
-                </div>
-              </a>
-              <div class="dropdown-divider"></div>
-              <h6 class="p-3 mb-0 text-center">4 new messages</h6>
+
+
+
+        </a>
+        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+          <h6 class="p-3 mb-0 bg-primary text-white py-4">Messages</h6>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item preview-item">
+            <div class="preview-thumbnail">
+              <img src="assets/images/faces/face4.jpg" alt="image" class="profile-pic">
             </div>
-          </li>
-          
-            </a>
-            <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
-              aria-labelledby="notificationDropdown">
-              <h6 class="p-3 mb-0 bg-primary text-white py-4">Notifications</h6>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-success">
-                    <i class="mdi mdi-calendar"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                  <h6 class="preview-subject font-weight-normal mb-1">Event today</h6>
-                  <p class="text-gray ellipsis mb-0"> Just a reminder that you have an event today </p>
-                </div>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-warning">
-                    <i class="mdi mdi-settings"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                  <h6 class="preview-subject font-weight-normal mb-1">Settings</h6>
-                  <p class="text-gray ellipsis mb-0"> Update dashboard </p>
-                </div>
-              </a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-info">
-                    <i class="mdi mdi-link-variant"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
-                  <h6 class="preview-subject font-weight-normal mb-1">Launch Admin</h6>
-                  <p class="text-gray ellipsis mb-0"> New admin wow! </p>
-                </div>
-              </a>
-              <div class="dropdown-divider"></div>
-              <h6 class="p-3 mb-0 text-center">See all notifications</h6>
+            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+              <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Mark send you a message</h6>
+              <p class="text-gray mb-0"> 1 Minutes ago </p>
             </div>
-          </li>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item preview-item">
+            <div class="preview-thumbnail">
+              <img src="assets/images/faces/face2.jpg" alt="image" class="profile-pic">
+            </div>
+            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+              <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Cregh send you a message</h6>
+              <p class="text-gray mb-0"> 15 Minutes ago </p>
+            </div>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item preview-item">
+            <div class="preview-thumbnail">
+              <img src="assets/images/faces/face3.jpg" alt="image" class="profile-pic">
+            </div>
+            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+              <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Profile picture updated</h6>
+              <p class="text-gray mb-0"> 18 Minutes ago </p>
+            </div>
+          </a>
+          <div class="dropdown-divider"></div>
+          <h6 class="p-3 mb-0 text-center">4 new messages</h6>
+        </div>
+        </li>
+
+        </a>
+        <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
+          aria-labelledby="notificationDropdown">
+          <h6 class="p-3 mb-0 bg-primary text-white py-4">Notifications</h6>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item preview-item">
+            <div class="preview-thumbnail">
+              <div class="preview-icon bg-success">
+                <i class="mdi mdi-calendar"></i>
+              </div>
+            </div>
+            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+              <h6 class="preview-subject font-weight-normal mb-1">Event today</h6>
+              <p class="text-gray ellipsis mb-0"> Just a reminder that you have an event today </p>
+            </div>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item preview-item">
+            <div class="preview-thumbnail">
+              <div class="preview-icon bg-warning">
+                <i class="mdi mdi-settings"></i>
+              </div>
+            </div>
+            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+              <h6 class="preview-subject font-weight-normal mb-1">Settings</h6>
+              <p class="text-gray ellipsis mb-0"> Update dashboard </p>
+            </div>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item preview-item">
+            <div class="preview-thumbnail">
+              <div class="preview-icon bg-info">
+                <i class="mdi mdi-link-variant"></i>
+              </div>
+            </div>
+            <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
+              <h6 class="preview-subject font-weight-normal mb-1">Launch Admin</h6>
+              <p class="text-gray ellipsis mb-0"> New admin wow! </p>
+            </div>
+          </a>
+          <div class="dropdown-divider"></div>
+          <h6 class="p-3 mb-0 text-center">See all notifications</h6>
+        </div>
+        </li>
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
           data-toggle="offcanvas">
@@ -140,42 +137,24 @@
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
-        
-            
-          
-       
-          
-            </a>
-            <div class="collapse" id="auth">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
-              </ul>
-            </div>
+
+
+
+
+
+          </a>
+          <div class="collapse" id="auth">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item"> <a class="nav-link" href="pages/samples/blank-page.html"> Blank Page </a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
+              <li class="nav-item"> <a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
+            </ul>
+          </div>
           </li>
-          
-          <li class="nav-item sidebar-user-actions">
-            <div class="user-details">
-              <div class="d-flex justify-content-between align-items-center">
-                <div>
-                  <div class="d-flex align-items-center">
-                    <div class="sidebar-profile-img">
-                      <img src="assets/images/faces/face28.png" alt="image">
-                    </div>
-                    <div class="sidebar-profile-text">
-                      <p class="mb-1">Chu Chu</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="badge badge-danger">3</div>
-              </div>
-            </div>
-          </li>
-         
-          
+
+
           <li class="nav-item sidebar-user-actions">
             <div class="sidebar-user-menu">
               <a href="../logout.php" class="nav-link"><i class="mdi mdi-logout menu-icon"></i>
@@ -184,18 +163,26 @@
           </li>
         </ul>
       </nav>
+
       <!-- partial -->
       <div class="main-panel">
+
         <div class="content-wrapper">
           <div class="row" id="proBanner">
-            <div class="col-12">
-              <span class="d-flex align-items-center purchase-popup">
+            <form action="announcement.php" method="post">
 
-                <a href="https://github.com/BootstrapDash/ConnectPlusAdmin-Free-Bootstrap-Admin-Template"
-                  target="_blank" class="btn ml-auto download-button"></a>
-                <a href="http://www.bootstrapdash.com/demo/connect-plus/jquery/template/" target="_blank"
-                  class="btn purchase-button"></a>
-                <i class="mdi mdi-close" id="bannerClose"></i>
+              <textarea id="announcement" name="announcement" placeholder="Announcement" rows="4"
+                cols="50"></textarea><br>
+              <input type="submit" value="Submit">
+            </form>
+            <div class="col-12">
+
+
+              <a href="https://github.com/BootstrapDash/ConnectPlusAdmin-Free-Bootstrap-Admin-Template" target="_blank"
+                class="btn ml-auto download-button"></a>
+              <a href="http://www.bootstrapdash.com/demo/connect-plus/jquery/template/" target="_blank"
+                class="btn purchase-button"></a>
+
               </span>
             </div>
           </div>
@@ -203,11 +190,9 @@
             <h2 class="text-dark font-weight-bold mb-2"> Admin Dashboard </h2>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
+
             <body>
-              <!-- list of users -->
 
-
-              <!-- end of list users -->
               <div style="display: inline-flex;">
 
 
@@ -304,8 +289,8 @@
 
                 <!-- end of the pie chart -->
               </div>
-                     <div>
-              <!-- <div class="row">
+              <div>
+                <!-- <div class="row">
               <div class="col-md-12">
                 <div class="d-sm-flex justify-content-between align-items-center transaparent-tab-border {">
                   
@@ -313,55 +298,82 @@
                    <center> <a class="nav-link" id="home-tab" data-toggle="tab" href="#" <bold></></center>
 
                     </li> -->
-           
 
 
 
 
-              <!-- content-wrapper ends -->
-              <!-- partial:partials/_footer.html -->
-              <footer class="footer" style="margin-top: 90vh;margin-left:-130vh;width:90vh;color:black;">
-              <?php
-              include_once("../included/dbaccess/DBUtil.php");
-              $conn = getConnection();
-              $sql = "SELECT * FROM users";
-              $result = $conn->query($sql);
-              if ($result->num_rows > 0) {
-                echo "<table>";
-                echo "<tr><th>ID</th><th>Name</th><th>Email</th><th>Password</th><th>Gender</th><th>Role</th></tr>";
-                while ($row = $result->fetch_assoc()) {
-                  echo "<tr><td>" . $row["id"] . "</td><td>" . $row["username"] . "</td><td>" . $row["email"] . "</td><td>" . $row["password"] . "</td><td>" .  $row["gender"] . "</td><td>" . $row["role"] . "</td></tr>" ;
-                }
-                echo "</table>";
-              } else {
-                echo "No users found.";
-              }
-              $conn->close();
-              ?>
-              </footer>
-              <!-- partial -->
+
+                <!-- content-wrapper ends -->
+                <!-- partial:partials/_footer.html -->
+                <footer class="footer" style="margin-top: 90vh;margin-left:-130vh;width:90vh;color:black;">
+                  <?php
+                  include_once("../included/dbaccess/DBUtil.php");
+                  $conn = getConnection();
+                  $sql = "SELECT * FROM users";
+                  $result = $conn->query($sql);
+
+                  if ($result->num_rows > 0) {
+                    echo "<table style='width:220%;border: 3px solid black;margin-left: -40vh;'>";
+                    echo "<tr><th>ID</th><th>Name</th><th>Email</th><th>Password</th><th>Gender</th><th>Role</th><th>Status</th><th>Action</th></tr>";
+
+                    while ($row = $result->fetch_assoc()) {
+                      echo "<tr>";
+                      echo "<td>" . $row["id"] . "</td>";
+                      echo "<td>" . $row["username"] . "</td>";
+                      echo "<td>" . $row["email"] . "</td>";
+                      echo "<td>" . $row["password"] . "</td>";
+                      echo "<td>" . $row["gender"] . "</td>";
+                      echo "<td>" . $row["role"] . "</td>";
+                      echo "<td>" . $row["status"] . "</td>";
+
+                      // Add a form to submit the user ID for activation
+                      echo "<td><form action='activate.php' method='post'>";
+                      echo "<input type='hidden' name='user_id' value='" . $row["id"] . "'>";
+                      echo "<button type='submit' name='activate' style='background-color:green;'>Activate</button>";
+                      echo "</form></td>";
+
+                      // Add a form to submit the user ID for deactivation
+                      echo "<td><form action='deactive.php' method='post'>";
+                      echo "<input type='hidden' name='user_id' value='" . $row["id"] . "'>";
+                      echo "<button type='submit' name='deactivate' style='background-color:red;'>Deactivate</button>";
+                      echo "</form></td>";
+
+                      echo "</tr>";
+                    }
+
+                    echo "</table>";
+                  } else {
+                    echo "No users found.";
+                  }
+
+                  $conn->close();
+                  ?>
+
+
+                </footer>
+                <!-- partial -->
+              </div>
+              <!-- main-panel ends -->
           </div>
-          <!-- main-panel ends -->
+          <!-- page-body-wrapper ends -->
         </div>
-        <!-- page-body-wrapper ends -->
-      </div>
-      <!-- container-scroller -->
-      <!-- plugins:js -->
-      <script src="assets/vendors/js/vendor.bundle.base.js"></script>
-      <!-- endinject -->
-      <!-- Plugin js for this page -->
-      <script src="assets/vendors/chart.js/Chart.min.js"></script>
-      <script src="assets/vendors/jquery-circle-progress/js/circle-progress.min.js"></script>
-      <!-- End plugin js for this page -->
-      <!-- inject:js -->
-      <script src="assets/js/off-canvas.js"></script>
-      <script src="assets/js/hoverable-collapse.js"></script>
-      <script src="assets/js/misc.js"></script>
-      <!-- endinject -->
-      <!-- Custom js for this page -->
-      <script src="assets/js/dashboard.js"></script>
-      <!-- End custom js for this page -->
-      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <!-- container-scroller -->
+        <!-- plugins:js -->
+        <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+        <!-- endinject -->
+        <!-- Plugin js for this page -->
+        <script src="assets/vendors/chart.js/Chart.min.js"></script>
+        <script src="assets/vendors/jquery-circle-progress/js/circle-progress.min.js"></script>
+        <!-- End plugin js for this page -->
+        <!-- inject:js -->
+        <script src="assets/js/off-canvas.js"></script>
+        <script src="assets/js/hoverable-collapse.js"></script>
+        <script src="assets/js/misc.js"></script>
+        <!-- endinject -->
+        <!-- Custom js for this page -->
+        <script src="assets/js/dashboard.js"></script>
+        <!-- End custom js for this page -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 
 </html>

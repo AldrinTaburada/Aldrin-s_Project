@@ -133,7 +133,7 @@ $result = mysqli_query($conn, $sql);
     <center>
         <h2>ALL ACTIVITIES OF THE USERS</h2>
     </center>
-    <table>
+    <table style="height: 50vh;overflow:auto;">
         <tr>
             <th>id</th>
             <th>Title</th>
@@ -171,6 +171,26 @@ $result = mysqli_query($conn, $sql);
 
         ?>
     </table>
+    <section style=" width: 100%;height: 50vh; margin-top: 5vh ;display: inline-flex;">
+        <div class="left" style="width:50%;background-color: gray;">
+            <h1 style="margin-left:30vh;margin-top: 25vh;">ANNOUNCEMENT</h1>
+        </div>
+        <div class="right" style="width:50%;overflow:auto;padding:5vh;">
+                <?php
+                $conn = getConnection();
+                $sql = "SELECT * FROM announcement";
+                $result = mysqli_query($conn, $sql);
+                while ($row = mysqli_fetch_assoc($result)) {
+                    ?>
+                        <div style="border:2px solid black;margin-top: 2vh;">
+                            <h1 style="margin-left: 5vh;">From: Admin</h1>
+                            <h1 style="margin-left: 5vh;">Subject: <?php echo $row["announcement"];?></h1>
+                        </div>
+                    <?php
+                }
+                ?>
+        </div>
+    </section>
 </body>
 
 </html>
